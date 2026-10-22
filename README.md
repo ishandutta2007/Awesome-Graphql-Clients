@@ -42,17 +42,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Apollo Studio (GraphOS)](https://studio.apollographql.com/)**  
-
-  Apollo's commercial platform for schema registry, usage reporting, and federation management. The open-source Apollo Client integrates with Studio for schema checks and metrics, but the client itself remains MIT licensed. Enterprise-tier pricing for teams needing schema governance and federation.
-
-
-
-- **[GraphQL Editor (Cloud)](https://graphqleditor.com/)**  
-
-  Visual schema design and collaboration platform with a free tier. Not a client—included for ecosystem context as a schema-focused SaaS tool.
+| Platform | Company Valuation / Revenue | Starting Pricing | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Apollo Studio (GraphOS)](https://studio.apollographql.com/)** | $1.5 Billion valuation ($170M+ funding) | $5 / million requests (Developer plan) | Forever-free tier capped at 60 requests/minute (RPM) per router, 1-day metrics retention, up to 3 developers | Apollo's commercial platform for schema registry, usage reporting, and federation management. The open-source Apollo Client integrates with Studio for schema checks and metrics, but the client itself remains MIT licensed. Enterprise-tier pricing for teams needing schema governance and federation. |
+| **[GraphQL Editor (Cloud)](https://graphqleditor.com/)** | ~$220,000 annual revenue (Bootstrapped) | $69 / month (Essentials plan) | 14-day free trial of paid cloud features; free/open-source tier restricted to public projects (no private workspaces) | Visual schema design and collaboration platform with a free tier. Not a client—included for ecosystem context as a schema-focused SaaS tool. |
 
 
 
