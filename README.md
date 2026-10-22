@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Graphql-Clients/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Graphql-Clients?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Graphql-Clients/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Graphql-Clients?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Graphql-Clients/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Graphql-Clients?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Graphql-Clients/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -41,7 +41,7 @@ This repository tracks notable **SaaS platforms** and **open-source client libra
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
 - [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Top Client Libraries (Ranked by GitHub Stars)](#top-client-libraries-ranked-by-github-stars)
+  - [Top Client Libraries (Ranked by GitHub_Stars)](#top-client-libraries-ranked-by-github-stars)
   - [Architectural Decision Matrix](#architectural-decision-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsor](#-support--sponsor)
@@ -71,50 +71,50 @@ Commercial platforms and hosted cloud backends providing schema governance, fede
 
 ## 🐙 Open-Source GitHub Projects
 
-### Top Client Libraries (Ranked by GitHub Stars)
+### Top Client Libraries (Ranked by GitHub_Stars)
 
-Below are the industry-leading open-source GraphQL clients and data-fetching libraries, ordered in descending order of community adoption and GitHub stars:
+Below are the industry-leading open-source GraphQL clients and data-fetching libraries, ordered in descending order of community adoption and GitHub_Stars:
 
-1. **[TanStack Query (React Query)](https://github.com/TanStack/query)** [![GitHub stars](https://img.shields.io/github/stars/TanStack/query?style=social&color=white)](https://github.com/TanStack/query/stargazers)  
+1. **[TanStack Query (React Query)](https://github.com/TanStack/query)** [![GitHub_Stars](https://img.shields.io/github/stars/TanStack/query?style=social&color=white)](https://github.com/TanStack/query/stargazers)  
    The dominant async state-management and data-fetching powerhouse for TS/JS applications (~5M weekly downloads). Primarily designed for REST and generic async promises, it functions seamlessly with GraphQL via lightweight fetchers (e.g., Graffle or standard fetch). **Best for**: Teams migrating from REST or prioritizing simple document/key caching over normalized caching complexity.
 
-2. **[SWR](https://github.com/vercel/swr)** [![GitHub stars](https://img.shields.io/github/stars/vercel/swr?style=social&color=white)](https://github.com/vercel/swr/stargazers)  
+2. **[SWR](https://github.com/vercel/swr)** [![GitHub_Stars](https://img.shields.io/github/stars/vercel/swr?style=social&color=white)](https://github.com/vercel/swr/stargazers)  
    Vercel's lightweight React hooks library for data fetching utilizing the HTTP RFC 5861 stale-while-revalidate cache invalidation strategy. Compact bundle size, automatic revalidation on focus/reconnection, and deep synergy with Next.js applications.
 
-3. **[Apollo Client](https://github.com/apollographql/apollo-client)** [![GitHub stars](https://img.shields.io/github/stars/apollographql/apollo-client?style=social&color=white)](https://github.com/apollographql/apollo-client/stargazers)  
+3. **[Apollo Client](https://github.com/apollographql/apollo-client)** [![GitHub_Stars](https://img.shields.io/github/stars/apollographql/apollo-client?style=social&color=white)](https://github.com/apollographql/apollo-client/stargazers)  
    The industry benchmark for feature-complete client-side GraphQL (~4M weekly downloads). Features a powerful normalized in-memory cache, React 19/Suspense hooks, `@defer` and `@stream` support, local state policies, DevTools, and WebSocket subscriptions.
 
-4. **[Relay](https://github.com/facebook/relay)** [![GitHub stars](https://img.shields.io/github/stars/facebook/relay?style=social&color=white)](https://github.com/facebook/relay/stargazers)  
+4. **[Relay](https://github.com/facebook/relay)** [![GitHub_Stars](https://img.shields.io/github/stars/facebook/relay?style=social&color=white)](https://github.com/facebook/relay/stargazers)  
    Meta's high-performance, compiler-driven GraphQL client for React. Enforces strict fragment colocation and schema conventions (Node interface, Connection pagination). The Relay Compiler optimizes runtime overhead by preprocessing query graphs ahead of time into minimal JavaScript artifacts.
 
-5. **[RTK Query](https://github.com/reduxjs/redux-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/reduxjs/redux-toolkit?style=social&color=white)](https://github.com/reduxjs/redux-toolkit/stargazers)  
+5. **[RTK Query](https://github.com/reduxjs/redux-toolkit)** [![GitHub_Stars](https://img.shields.io/github/stars/reduxjs/redux-toolkit?style=social&color=white)](https://github.com/reduxjs/redux-toolkit/stargazers)  
    Built into Redux Toolkit, RTK Query eliminates boilerplate for data fetching and caching in Redux applications. Supports GraphQL endpoints with tag-based cache invalidation, polling, and prefetching without requiring secondary caching libraries.
 
-6. **[urql](https://github.com/urql-graphql/urql)** [![GitHub stars](https://img.shields.io/github/stars/urql-graphql/urql?style=social&color=white)](https://github.com/urql-graphql/urql/stargazers)  
+6. **[urql](https://github.com/urql-graphql/urql)** [![GitHub_Stars](https://img.shields.io/github/stars/urql-graphql/urql?style=social&color=white)](https://github.com/urql-graphql/urql/stargazers)  
    A lightweight, modular, exchange-based client (~1M weekly downloads). Features a tiny core bundle (~14KB) with document caching out-of-the-box and opt-in normalized caching via `@urql/exchange-graphcache`. Highly customizable via functional middleware exchanges.
 
-7. **[Graffle](https://github.com/graffle-js/graffle)** (formerly *graphql-request*) [![GitHub stars](https://img.shields.io/github/stars/graffle-js/graffle?style=social&color=white)](https://github.com/graffle-js/graffle/stargazers)  
+7. **[Graffle](https://github.com/graffle-js/graffle)** (formerly *graphql-request*) [![GitHub_Stars](https://img.shields.io/github/stars/graffle-js/graffle?style=social&color=white)](https://github.com/graffle-js/graffle/stargazers)  
    A minimal, zero-dependency, type-safe GraphQL client for modern JavaScript and TypeScript environments. Offers zero caching overhead, making it ideal for React Server Components (RSC), Next.js App Router, Cloudflare Workers, and server-side automation scripts.
 
-8. **[Apollo iOS](https://github.com/apollographql/apollo-ios)** [![GitHub stars](https://img.shields.io/github/stars/apollographql/apollo-ios?style=social&color=white)](https://github.com/apollographql/apollo-ios/stargazers)  
+8. **[Apollo iOS](https://github.com/apollographql/apollo-ios)** [![GitHub_Stars](https://img.shields.io/github/stars/apollographql/apollo-ios?style=social&color=white)](https://github.com/apollographql/apollo-ios/stargazers)  
    A strongly typed, caching GraphQL client for Apple platforms (Swift, iOS, iPadOS, macOS, watchOS). Generates Swift code from schema documents and supports SQLite normalized caching and Combine/async-await pipelines.
 
-9. **[Apollo Kotlin](https://github.com/apollographql/apollo-kotlin)** [![GitHub stars](https://img.shields.io/github/stars/apollographql/apollo-kotlin?style=social&color=white)](https://github.com/apollographql/apollo-kotlin/stargazers)  
+9. **[Apollo Kotlin](https://github.com/apollographql/apollo-kotlin)** [![GitHub_Stars](https://img.shields.io/github/stars/apollographql/apollo-kotlin?style=social&color=white)](https://github.com/apollographql/apollo-kotlin/stargazers)  
    A multiplatform GraphQL client built for Kotlin, Android, and JVM. Generates idiomatic Kotlin models from GraphQL operations, offering normalized in-memory and SQLDelight caches with first-class Coroutines/Flow integration.
 
-10. **[graphql-hooks](https://github.com/nearform/graphql-hooks)** [![GitHub stars](https://img.shields.io/github/stars/nearform/graphql-hooks?style=social&color=white)](https://github.com/nearform/graphql-hooks/stargazers)  
+10. **[graphql-hooks](https://github.com/nearform/graphql-hooks)** [![GitHub_Stars](https://img.shields.io/github/stars/nearform/graphql-hooks?style=social&color=white)](https://github.com/nearform/graphql-hooks/stargazers)  
     A first-class minimal React hooks client (~7KB) created by Nearform. Provides clean hooks (`useQuery`, `useMutation`), server-side rendering (SSR) caching support, and extensible plugin architecture without bundle bloat.
 
-11. **[GQL (Python)](https://github.com/graphql-python/gql)** [![GitHub stars](https://img.shields.io/github/stars/graphql-python/gql?style=social&color=white)](https://github.com/graphql-python/gql/stargazers)  
+11. **[GQL (Python)](https://github.com/graphql-python/gql)** [![GitHub_Stars](https://img.shields.io/github/stars/graphql-python/gql?style=social&color=white)](https://github.com/graphql-python/gql/stargazers)  
     The premier GraphQL client for Python with support for synchronous requests, asyncio, WebSockets, Phoenix channels, and file uploads. Built for backend-to-backend communication, ETL pipelines, and automation.
 
-12. **[graphql-client (Rust)](https://github.com/graphql-rust/graphql-client)** [![GitHub stars](https://img.shields.io/github/stars/graphql-rust/graphql-client?style=social&color=white)](https://github.com/graphql-rust/graphql-client/stargazers)  
+12. **[graphql-client (Rust)](https://github.com/graphql-rust/graphql-client)** [![GitHub_Stars](https://img.shields.io/github/stars/graphql-rust/graphql-client?style=social&color=white)](https://github.com/graphql-rust/graphql-client/stargazers)  
     A typed GraphQL client for Rust using derive macros (`#[derive(GraphQLQuery)]`). Validates queries against schema definitions at compile-time and generates serde-compatible serialization structs.
 
-13. **[Houdini](https://github.com/HoudiniGraphQL/houdini)** [![GitHub stars](https://img.shields.io/github/stars/HoudiniGraphQL/houdini?style=social&color=white)](https://github.com/HoudiniGraphQL/houdini/stargazers)  
+13. **[Houdini](https://github.com/HoudiniGraphQL/houdini)** [![GitHub_Stars](https://img.shields.io/github/stars/HoudiniGraphQL/houdini?style=social&color=white)](https://github.com/HoudiniGraphQL/houdini/stargazers)  
     A compiler-first GraphQL client tailored for SvelteKit and Svelte (with React support). Features fragment colocation, automatic type generation, optimistic updates, and a "disappearing" runtime that renders queries with near-zero bundle penalty.
 
-14. **[Villus](https://github.com/logaretm/villus)** [![GitHub stars](https://img.shields.io/github/stars/logaretm/villus?style=social&color=white)](https://github.com/logaretm/villus/stargazers)  
+14. **[Villus](https://github.com/logaretm/villus)** [![GitHub_Stars](https://img.shields.io/github/stars/logaretm/villus?style=social&color=white)](https://github.com/logaretm/villus/stargazers)  
     A tiny (~3KB), fast, and modular GraphQL client for Vue 3 using the Composition API. Offers built-in cache plugins, batching, deduplication, and file upload capabilities.
 
 ---
